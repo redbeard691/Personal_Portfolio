@@ -2,6 +2,10 @@ img {
     border-radius: 10px;
     margin-bottom: 20px;
 }
+.image-container {
+    display: flex;
+    justify-content: center;
+}
 .fakeimg {
     height: 200px;
     background: #aaa;
