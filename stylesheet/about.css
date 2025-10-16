@@ -2,11 +2,21 @@ img {
     border-radius: 10px;
     margin-bottom: 20px;
 }
+
 .image-container {
     display: flex;
     justify-content: center;
 }
+
 .fakeimg {
     height: 200px;
     background: #aaa;
-  }
+}
+
+.resume-button-corner {
+  /* This positions the button relative to the .navbar-container. */
+  position: absolute;
+  /* Pin it to the bottom and right edges. */
+  bottom: 15px;
+  right: 15px;
+}
