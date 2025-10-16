@@ -1,3 +1,11 @@
 .nav-link {
     font-size: 20px;
 }
+
+.resume-button-corner {
+  /* This positions the button relative to the .navbar-container. */
+  position: absolute;
+  /* Pin it to the bottom and right edges. */
+  bottom: 15px;
+  right: 15px;
+}
